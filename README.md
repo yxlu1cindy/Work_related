@@ -8,3 +8,8 @@
 6. Windows平台处理doc可以用pywin32,非Windows平台可以用comtypes(速度会慢一点)--然而linux/unix并不能用，要转的话参照https://vinta.ws/code/converting-doc-to-pdf-using-unoconv-and-python.html
 7. Pandoc 提供格式转换，但是转pdf要用latex，操作繁琐。。。，不支持.doc
 8. Tensorflow 一些例子 ： https://nbviewer.jupyter.org/github/aymericdamien/TensorFlow-Examples/blob/master/notebooks/2_BasicModels/word2vec.ipynb
+9. Python内置库:https://www.liaoxuefeng.com/wiki/897692888725344/973805065315456
+  - Collections:Counter;deque->类似队列，可双边插入;OrderedDict-永远保持插入顺序
+  - hashlib：MD5摘要—>加密
+  - openrator: itemgetter，按顺序取
+  - itertool: product('abc', [1, 2])   # 多个循环器集合的笛卡尔积。相当于嵌套循环;permutations('abc', 2)   # 从'abcd'中挑选两个元素，比如ab, bc, ... 将所有结果排序，返回为新的循环器。注意，上面的组合分顺序，即ab, ba都返回。;combinations('abc', 2)   # 从'abcd'中挑选两个元素，比如ab, bc, ... 将所有结果排序，返回为新的循环器。注意，上面的组合不分顺序，即ab, ba的话，只返回一个ab。;combinations_with_replacement('abc', 2) # 与上面类似，但允许两次选出的元素重复。即多了aa, bb, cc
