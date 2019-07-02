@@ -7,3 +7,4 @@
 5. pycharm最好一个项目一个虚拟环境
 6. Windows平台处理doc可以用pywin32,非Windows平台可以用comtypes(速度会慢一点)--然而linux/unix并不能用，要转的话参照https://vinta.ws/code/converting-doc-to-pdf-using-unoconv-and-python.html
 7. Pandoc 提供格式转换，但是转pdf要用latex，操作繁琐。。。，不支持.doc
+8. Tensorflow 一些例子 ： https://nbviewer.jupyter.org/github/aymericdamien/TensorFlow-Examples/blob/master/notebooks/2_BasicModels/word2vec.ipynb
