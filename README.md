@@ -14,3 +14,4 @@
   - openrator: itemgetter，按顺序取
   - itertool: product('abc', [1, 2])   # 多个循环器集合的笛卡尔积。相当于嵌套循环;permutations('abc', 2)   # 从'abcd'中挑选两个元素，比如ab, bc, ... 将所有结果排序，返回为新的循环器。注意，上面的组合分顺序，即ab, ba都返回。;combinations('abc', 2)   # 从'abcd'中挑选两个元素，比如ab, bc, ... 将所有结果排序，返回为新的循环器。注意，上面的组合不分顺序，即ab, ba的话，只返回一个ab。;combinations_with_replacement('abc', 2) # 与上面类似，但允许两次选出的元素重复。即多了aa, bb, cc
 10. 封装时可以用一些魔法方法 https://www.cnblogs.com/seablog/p/7173107.html
+11. http://data.stats.gov.cn/[统计局数据]
