@@ -16,4 +16,4 @@
 10. 封装时可以用一些魔法方法 https://www.cnblogs.com/seablog/p/7173107.html
 11. http://data.stats.gov.cn/[统计局数据]
 12. from pyglmnet import GLM  => 可以调用GroupLasso =>Group原因：多个dummy variable一起进入/删减出模型
-13. pdf.get_dummys()
+13. pd.get_dummys()  -- dummy variable; df.columns.difference(['col1']) -- 选除col1以外的所有列
