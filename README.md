@@ -17,3 +17,4 @@
 11. http://data.stats.gov.cn/[统计局数据]
 12. from pyglmnet import GLM  => 可以调用GroupLasso =>Group原因：多个dummy variable一起进入/删减出模型
 13. pd.get_dummys()  -- dummy variable; df.columns.difference(['col1']) -- 选除col1以外的所有列
+14. typora画流程图：https://jingyan.baidu.com/article/48b558e3035d9a7f38c09aeb.html
